@@ -5,6 +5,7 @@ import { Context } from "../store/appContext";
 
 export const Demo = () => {
 	const { store, actions } = useContext(Context);
+	console.log("estoy en demo")
 
 	return (
 		<div className="container">
